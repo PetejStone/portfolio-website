@@ -1499,7 +1499,6 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			display: block;
 			width: 100%;
 		}
 
@@ -1517,6 +1516,10 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+.highlight {
+  display: flex;
+  justify-content: center;
+}
 
 /* List */
 
@@ -1843,10 +1846,11 @@ input, select, textarea {
 		.box.style1 {
 			background: #fff;
 			padding: 3em;
+      dis
 		}
 
 			.box.style1 .image {
-				display: block;
+
 				position: absolute;
 				top: 0;
 				width: 50%;
@@ -1856,7 +1860,7 @@ input, select, textarea {
 			}
 
 				.box.style1 .image img {
-					position: absolute;
+
 					top: 0;
 					height: 100%;
 					width: auto;
@@ -2180,7 +2184,7 @@ input, select, textarea {
 		}
 
 		.poptrox-popup .caption {
-			position: absolute;
+			position: initial;
 			bottom: 0;
 			left: 0;
 			background: #fff;
@@ -2628,4 +2632,11 @@ input, select, textarea {
 				opacity: 0.5;
 			}
 
+	}
+
+
+	/*popup card content*/
+
+	.site-info {
+		content: "<p>Hello</p>";
 	}
