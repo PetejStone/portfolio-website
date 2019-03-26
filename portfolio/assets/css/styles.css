@@ -2531,7 +2531,7 @@ input, select, textarea {
 						.box.style1 .image img {
 							position: relative;
 							height: auto;
-							width: 100%;
+							width: auto;
 						}
 
 					.box.style1 .inner {
@@ -2552,6 +2552,11 @@ input, select, textarea {
 				.box.style3 {
 					padding: 2em 1.25em 2em 1.25em;
 				}
+
+	.poptrox-popup .pic img {
+		max-width: 500px;
+		height: auto;
+	}
 
 		/* Header */
 
@@ -2637,6 +2642,6 @@ input, select, textarea {
 
 	/*popup card content*/
 
-	.site-info {
-		content: "<p>Hello</p>";
+	.info {
+		content: "hello";
 	}
